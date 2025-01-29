@@ -1,0 +1,1086 @@
+<REAPER_PROJECT 0.1 "7.19/linux-x86_64" 1738150315
+  <NOTES 0 2
+  >
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 4232
+  ENVATTACH 3
+  POOLEDENVATTACH 2
+  MIXERUIFLAGS 11 48
+  ENVFADESZ10 40
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 0
+  GRID 3199 8 1 8 1 0 0 0
+  TIMEMODE 1 5 -1 30 0 0 -1
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  PANLAWFLAGS 3
+  CURSOR 24
+  ZOOM 1.87751389918811 0 0
+  VZOOMEX 25.67311668 0
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "Media" ""
+  <RECORD_CFG
+    ZXZhdxgAAQ==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN ""
+  RENDER_FMT 0 2 0
+  RENDER_1X 0
+  RENDER_RANGE 1 0 0 18 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  TIMELOCKMODE 0
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 1
+  DEFPITCHMODE 589824 0
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+    ZXZhdxgAAQ==
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    BEATLEN 4
+    FREQ 1760 880 1
+    SAMPLES "" ""
+    SPLIGNORE 0 0
+    SPLDEF 2 660 "" 0
+    SPLDEF 3 440 "" 0
+    PATTERN 0 169
+    PATTERNSTR ABBB
+    MULT 1
+  >
+  GLOBAL_AUTO -1
+  TEMPO 10 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 0 0
+  SELECTION2 0 0
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_PANMODE 3
+  MASTER_PANLAWFLAGS 3
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    EGUID {456CF369-175E-7829-A7DE-B061ECB0E25D}
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    EGUID {03BE7514-C261-6CCC-4C05-AA22B3F2D61F}
+    ACT 0 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  <PROJBAY
+  >
+  <TRACK {7A0632DB-3D82-CBDD-9827-EC67D030B18D}
+    NAME GimmieGimmeSource
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {7A0632DB-3D82-CBDD-9827-EC67D030B18D}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 779 208 912 483
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: ReaEQ (Cockos)" reaeq.vst.so 0 "" 1919247729<56535472656571726561657100000000> ""
+        cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAzQAAAAEAAAAAABAA
+        IQAAAAUAAAAAAAAAAQAAAAAAAAAAAFlAAAAAAAAA8D+amZmZmZnpPwEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAACImC31lCrZAxjtW7AII
+        6T8zMzMzMzPxPwEBAAAAAQAAAN8y+otbVc9Ac0iESPn84j9mZmZmZmb0PwEEAAAAAAAAAAAAAAAAAFlAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AQAA
+        AIQCAACWAQAAAgAAAA==
+        AAAQAAAA
+      >
+      FLOATPOS 32 40 644 434
+      FXID {F43D0C52-DE81-CC7F-B918-3D046D24A839}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 17.14607174078377
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {37C0BAD5-F986-A29C-792E-5ABBDB17EF2F}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6356E580-7C11-2FB7-0892-EACB4523C17F}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 17.14607174078377
+      SNAPOFFS 0
+      LENGTH 17.0065570577036
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5A68BFA5-57FF-0317-2B93-784413244934}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 17.14607174078377
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {26E69FEC-1A44-B1BD-E5FB-8912B05DA819}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 34.15262879848738
+      SNAPOFFS 0
+      LENGTH 34.24120255875138
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {19903C1F-CFF4-6882-C5F0-BDDC57B7A628}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 34.15262879848738
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {24303232-FF88-324D-D09C-05914A391A0B}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 68.39383135723875
+      SNAPOFFS 0
+      LENGTH 15.23152516792625
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EB0D19A4-294D-902D-1302-2B54A3473BEB}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 68.39383135723875
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F76238A3-D0EE-E4D9-7691-456D8A98B29E}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 83.625356525165
+      SNAPOFFS 0
+      LENGTH 16.98872327642989
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {143DC8DB-4BD8-A066-6D5E-A1D4E3268C21}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 83.625356525165
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5F496CC5-DA73-3318-C9E8-84BC8B93985E}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 100.6140798015949
+      SNAPOFFS 0
+      LENGTH 36.14373148022116
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2E4203CE-BC97-8901-AE8E-B12FF7139939}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 100.6140798015949
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {83A0E7F3-4ED9-E5D2-2082-3506809D0670}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 136.75781128181606
+      SNAPOFFS 0
+      LENGTH 16.10467474107875
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {00CA37EB-3368-3AB1-2A6D-8F6C9F13F6F6}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 136.75781128181606
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {50AD588E-2AB0-4C14-8935-4BB8B7E48729}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 152.86248602289481
+      SNAPOFFS 0
+      LENGTH 19.06195221094708
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A599935B-D948-0F90-EA4D-6D91B21D9ED1}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 152.86248602289481
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0D5B0234-A5C1-414B-D654-5A097B29D924}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 171.9244382338419
+      SNAPOFFS 0
+      LENGTH 48.86604838368953
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D90E7CB7-345C-2B74-7E52-9503459411CA}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 171.9244382338419
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {26D0153B-9C9B-7026-692D-3D7B6B1D7584}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 220.79048661753143
+      SNAPOFFS 0
+      LENGTH 11.27844666758892
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B42B77A3-B14A-63DF-631F-F972BD0318FE}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 220.79048661753143
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {922F2426-5386-603A-D306-C073F9836354}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 232.06893328512035
+      SNAPOFFS 0
+      LENGTH 31.11546085246601
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FCEC497F-1F82-5393-9AD5-ED0E2CF4C67B}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 232.06893328512035
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E565351D-8DE2-781C-0C4C-1E620734D609}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 263.18439413758637
+      SNAPOFFS 0
+      LENGTH 27.12227252908028
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F2E16DE8-DF40-8FD3-E2D4-0C51804152F0}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 263.18439413758637
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2179A6C5-DC34-E602-F6AF-03FC1738DBCA}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+  >
+  <TRACK {E2C49F61-BC6A-CCA8-CB1E-9A2806FA782B}
+    NAME CutStart
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {E2C49F61-BC6A-CCA8-CB1E-9A2806FA782B}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 32 77 912 483
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: ReaEQ (Cockos)" reaeq.vst.so 0 "" 1919247729<56535472656571726561657100000000> ""
+        cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAzQAAAAEAAAAAABAA
+        IQAAAAUAAAAAAAAAAQAAAAAAAAAAAFlAAAAAAAAA8D+amZmZmZnpPwEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAACImC31lCrZAxjtW7AII
+        6T8zMzMzMzPxPwEBAAAAAQAAAN8y+otbVc9Ac0iESPn84j9mZmZmZmb0PwEEAAAAAAAAAAAAAAAAAFlAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AQAA
+        AIQCAACWAQAAAgAAAA==
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {4D383E76-990E-E86E-4E0F-53CDB45A7D85}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 17.0065570577036
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D0D559BC-A978-F93D-8121-F5121265B5DD}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 17.14607174078377
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5CC49D4B-DD90-88D8-E40A-0825BAE0287A}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 17.0065570577036
+      SNAPOFFS 0
+      LENGTH 34.24120255875138
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {3BAF96C4-D5A8-CFE3-85C0-C863401B797C}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 34.15262879848738
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FA8C4E67-50F7-783E-1DD4-BE2927F82E9E}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 51.24775961645499
+      SNAPOFFS 0
+      LENGTH 15.23152516792625
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0B88524D-C6B1-8E32-9458-EEFB4A6393CA}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 68.39383135723875
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BFA4C37D-8AF0-F66E-8733-99DFE05EDE3B}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 66.47928478438124
+      SNAPOFFS 0
+      LENGTH 16.98872327642989
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2985E9A9-DD19-E7B0-ECE7-D05A20399821}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 83.625356525165
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DE9BEC8E-536B-B7D2-9B69-2DE2A58854DD}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 83.46800806081113
+      SNAPOFFS 0
+      LENGTH 3.50192228064769
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {67285C56-5088-ECC7-B521-B8F52E02E86F}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 100.6140798015949
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FC331F17-7655-0796-8E99-2F701DA1C573}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 86.96993034145882
+      SNAPOFFS 0
+      LENGTH 15.03006965854118
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {75ECCFF4-0BFB-E732-36BB-7C67DF803745}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 104.11600208224259
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CF9CC5AB-F20B-B4C6-1EAD-9AC6B917C061}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 102
+      SNAPOFFS 0
+      LENGTH 17.61173954103229
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BDA55C18-47A3-07D1-C784-B1431D31AC20}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 119.14607174078377
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {88177DC0-8CE1-496B-92E6-BD59DE59E5EA}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+  >
+  <TRACK {F18E5422-D7CA-0E46-ECC7-9DE303052BB3}
+    NAME "CutStart, insturmental tail"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {F18E5422-D7CA-0E46-ECC7-9DE303052BB3}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 32 77 912 483
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: ReaEQ (Cockos)" reaeq.vst.so 0 "" 1919247729<56535472656571726561657100000000> ""
+        cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAzQAAAAEAAAAAABAA
+        IQAAAAUAAAAAAAAAAQAAAAAAAAAAAFlAAAAAAAAA8D+amZmZmZnpPwEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAACImC31lCrZAxjtW7AII
+        6T8zMzMzMzPxPwEBAAAAAQAAAN8y+otbVc9Ac0iESPn84j9mZmZmZmb0PwEEAAAAAAAAAAAAAAAAAFlAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AQAA
+        AIQCAACWAQAAAgAAAA==
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {670CE952-D0BC-E1AF-82FC-C43D2CE8EAA3}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 17.0065570577036
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D28F5876-237F-EF79-2F7F-E8130BBC1A0C}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 17.14607174078377
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {95786098-9CBF-87AF-9D56-6AC85C364414}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 17.0065570577036
+      SNAPOFFS 0
+      LENGTH 34.24120255875138
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B00BA0A2-C15A-AFF8-D392-0616C7B400C5}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 34.15262879848738
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {25BEAF29-2709-EA8A-4822-2912B824E553}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 51.24775961645499
+      SNAPOFFS 0
+      LENGTH 15.23152516792625
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {82A0CAEB-3A6F-71B1-4E28-E8100DEB4DDD}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 68.39383135723875
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {49EDA8D1-B627-69F6-B3A1-917EE01FB532}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 66.47928478438124
+      SNAPOFFS 0
+      LENGTH 16.98872327642989
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {86906371-3DD7-1089-062E-987143ADA98A}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 83.625356525165
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {51864899-2481-3A46-DA4F-FC288C62EAE1}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 83.46800806081113
+      SNAPOFFS 0
+      LENGTH 48.88879361259637
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.5 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {37BDBF19-641D-7E8C-BE12-28AAFDCBC041}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 171.901693004935
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A11BE33E-8789-5A80-DFCD-CEFD9BB4DFDF}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 83.46800806081113
+      SNAPOFFS 0
+      LENGTH 0.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.5 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {00DCACCD-BF73-72AA-3C19-D4F12ADFDAB8}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 100.6140798015949
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {339B986E-2685-C582-13C7-649072CCD997}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+  >
+  <TRACK {40A9588E-A739-3A00-1C5A-8F975AB83A4C}
+    NAME "CutStart, insturmental tail"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 37 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {40A9588E-A739-3A00-1C5A-8F975AB83A4C}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 32 77 912 483
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: ReaEQ (Cockos)" reaeq.vst.so 0 "" 1919247729<56535472656571726561657100000000> ""
+        cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAzQAAAAEAAAAAABAA
+        IQAAAAUAAAAAAAAAAQAAAAAAAAAAAFlAAAAAAAAA8D+amZmZmZnpPwEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAACImC31lCrZAxjtW7AII
+        6T8zMzMzMzPxPwEBAAAAAQAAAN8y+otbVc9Ac0iESPn84j9mZmZmZmb0PwEEAAAAAAAAAAAAAAAAAFlAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AQAA
+        AIQCAACWAQAAAgAAAA==
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {692A7008-AB4B-D33E-3234-ED546FB5068B}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 17.0065570577036
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A314EF9B-F653-3677-2F53-7301F6A07DF3}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 17.14607174078377
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B83E815B-2E99-0336-7D6B-ACDC54BB6D69}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 17.0065570577036
+      SNAPOFFS 0
+      LENGTH 34.24120255875138
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BB281633-9CE0-F994-F17F-CD99E1DB604E}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 34.15262879848738
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D6412F95-723F-F4E8-091F-FDBC82AB20D4}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 51.24775961645499
+      SNAPOFFS 0
+      LENGTH 15.23152516792625
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FB9645F4-077F-0CEB-034A-249D7540069B}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 68.39383135723875
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C6E9B847-546D-ACF3-62B1-19184E32A8F1}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 66.47928478438124
+      SNAPOFFS 0
+      LENGTH 16.98872327642989
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {30D9EAB5-BEFE-5CCE-BA45-8D5105A7E603}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 83.625356525165
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {62EFBBD2-5428-E01F-D320-F5FB53358978}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 83.46800806081113
+      SNAPOFFS 0
+      LENGTH 0.75178695179332
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {42CDA6E6-4F3E-A2AE-C221-448A6F442312}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 100.6140798015949
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8C0CB63B-C227-1A76-CEC8-76C4A74C2EE4}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 84.21979501260445
+      SNAPOFFS 0
+      LENGTH 48.88879361259637
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {93F534E6-0CBC-A7D6-46F6-C592C67857A1}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 171.901693004935
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9A1F861A-4CF4-7096-F391-9C7BD29FF23C}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+  >
+  <TRACK {57A07B92-8BBF-39EB-D4DA-CFF06E917E84}
+    NAME "Extend Chorus"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 1
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {57A07B92-8BBF-39EB-D4DA-CFF06E917E84}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 32 77 912 483
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: ReaEQ (Cockos)" reaeq.vst.so 0 "" 1919247729<56535472656571726561657100000000> ""
+        cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAzQAAAAEAAAAAABAA
+        IQAAAAUAAAAAAAAAAQAAAAAAAAAAAFlAAAAAAAAA8D+amZmZmZnpPwEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAACImC31lCrZAxjtW7AII
+        6T8zMzMzMzPxPwEBAAAAAQAAAN8y+otbVc9Ac0iESPn84j9mZmZmZmb0PwEEAAAAAAAAAAAAAAAAAFlAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AQAA
+        AIQCAACWAQAAAgAAAA==
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {56DD9E6F-F884-4D32-3F32-2937AD6AD8A3}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 17.0065570577036
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DB91ED73-7F79-D797-566B-7A6021944A8A}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 17.14607174078377
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7EF8B88D-F3D1-9294-0320-9E3D0AF23A30}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 17.00655705772806
+      SNAPOFFS 0
+      LENGTH 34.24120255875138
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F5DF6052-480E-6D8E-04B8-F1000E4CF621}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 34.15262879848738
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BFB94FD9-8CBE-E914-4B55-9D806C0462EE}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 51.2477596164681
+      SNAPOFFS 0
+      LENGTH 15.55126215407481
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6DB7B2E5-241C-C6E7-8E51-6D3E5EB24C79}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 68.39383135723875
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1DCE0FA2-7EF0-9A51-5455-6DE32E5F235C}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 66.79902177054291
+      SNAPOFFS 0
+      LENGTH 19.07667510332391
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {35340EC4-20A4-978B-81C6-DAA521D99FFA}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 152.84776313051802
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1F304863-1516-CDD3-39B3-F738689524C0}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+  >
+>
