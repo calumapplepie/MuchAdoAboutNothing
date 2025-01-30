@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.19/linux-x86_64" 1738159784
+<REAPER_PROJECT 0.1 "7.19/linux-x86_64" 1738167558
   <NOTES 0 2
   >
   RIPPLE 0
@@ -13,14 +13,14 @@
   PANLAW 1
   PROJOFFS 0 0 0
   MAXPROJLEN 0 0
-  GRID 3455 8 1 8 1 0 0 0
+  GRID 3199 8 1 8 1 0 0 0
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
   PANLAWFLAGS 3
-  CURSOR 12.58785393087416
-  ZOOM 6.49054715188757 0 0
-  VZOOMEX 6 64
+  CURSOR 90
+  ZOOM 9.18035769834984 2 0
+  VZOOMEX 22.79332924 522
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -64,10 +64,10 @@
     MULT 1
   >
   GLOBAL_AUTO -1
-  TEMPO 120 4 4
+  TEMPO 4 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 173.75426553780781 173.75309605017009
-  SELECTION2 173.75426553780781 173.75309605017009
+  SELECTION 0 0
+  SELECTION2 0 0
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -112,10 +112,10 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FIXEDLANES 9 0 0 0 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 497 0 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -159,7 +159,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {150F9F34-B37C-8899-95C0-B665EBD12526}
       IID 1
       NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
@@ -410,6 +410,770 @@
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {29F07E67-DD1E-06E3-9B16-026025AD9A4A}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+  >
+  <TRACK {66E562D0-9B42-56BD-9567-BF8D64B877FB}
+    NAME "Cut Start"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {66E562D0-9B42-56BD-9567-BF8D64B877FB}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 10.05562028532597
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {03D5316C-5FED-9E92-515C-9A9BEAD46829}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 8.15910662072787
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5FC704E8-D523-ECFE-B483-91790DF20C54}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+    <ITEM
+      POSITION 10.05562028533313
+      SNAPOFFS 0
+      LENGTH 20.11286327302623
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {55B139A2-660A-F643-CE14-B276A4B2002D}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 18.21472690605384
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0A36C861-B729-B897-97D1-F691729A572E}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+    <ITEM
+      POSITION 30.16848355834371
+      SNAPOFFS 0
+      LENGTH 11.77151052124405
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {699DADD7-6CB4-1198-4BD5-EFC8D4356B10}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 38.32759017908008
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {564AC61F-39F3-4448-6194-C58646BFEC0A}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+    <ITEM
+      POSITION 41.93999407952649
+      SNAPOFFS 0
+      LENGTH 14.7236796301524
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4E5A6E51-E632-5B73-14A5-43212509EA76}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 50.09910070032414
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {01E4C316-40EC-0720-528D-4B966E872EBB}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+    <ITEM
+      POSITION 56.66367370967889
+      SNAPOFFS 0
+      LENGTH 18.15204263151711
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B40D3046-594C-01D1-6E3F-F9F17B21967F}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 64.82278033047653
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0B7CC687-4312-7BD1-A4C4-CFD86A4E6F37}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+    <ITEM
+      POSITION 74.81571634119599
+      SNAPOFFS 0
+      LENGTH 31.89608054287375
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {543B7A37-7DF9-AB65-B09C-7DD884D4FE39}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 82.97482296199364
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D629E33F-E38D-9A01-D204-FC1D8ED5352D}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+  >
+  <TRACK {A23545BF-9821-A18C-87A4-A9D651B5752B}
+    NAME "Cut start, cut verse"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {A23545BF-9821-A18C-87A4-A9D651B5752B}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 10.05562028532597
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1A8239E1-3604-3B4C-4905-9F51F76D98E6}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 8.15910662072787
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E1401AD1-E553-8AA3-9A2E-740922369B13}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+    <ITEM
+      POSITION 10.05562028533313
+      SNAPOFFS 0
+      LENGTH 20.11286327302623
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E3E307D5-1C76-BD27-3175-AD519C762B85}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 18.21472690605384
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6CE89A02-BDBC-2FBC-4E80-BD787DE22D16}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+    <ITEM
+      POSITION 30.16848355834372
+      SNAPOFFS 0
+      LENGTH 11.77151052124405
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FB6CBBCE-3F8D-ABD2-1224-4A9E44109969}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 38.32759017908008
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0222EA3E-2EF8-5796-EC98-DBECBDDF010D}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+    <ITEM
+      POSITION 41.93999407952651
+      SNAPOFFS 0
+      LENGTH 14.7236796301524
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7817D91A-E52C-C360-AE0B-B7AD66B462EC}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 50.09910070032414
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B9019287-CF37-EC74-B716-2E3BFC2A5ADA}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+    <ITEM
+      POSITION 56.66367370972875
+      SNAPOFFS 0
+      LENGTH 18.15204263151711
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0CDAFBAE-47DD-DF63-D37D-B700AB7F17B8}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 64.82278033047653
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7E66AD56-B582-FC89-AAAA-9804DF737338}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+    <ITEM
+      POSITION 74.81571634124586
+      SNAPOFFS 0
+      LENGTH 15.70055919447861
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4D552266-58D1-EAF9-A323-A68C35AE1037}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 114.87090350486739
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2D5FE248-51BD-44EA-9038-56F7D075B971}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+    <ITEM
+      POSITION 90.51627553572447
+      SNAPOFFS 0
+      LENGTH 15.702965137588
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {892DBA71-407C-8069-8F99-C8FC81A3BE38}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 130.571462699346
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {84EE5CA7-D05F-DFBC-017D-EF2E159654C7}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+  >
+  <TRACK {55DEB3C1-B9AA-0BB0-058B-36F71BB58AC2}
+    NAME "LETS HAVE THIS AS AN OPTION"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 2 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 1
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {55DEB3C1-B9AA-0BB0-058B-36F71BB58AC2}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 17.14607174078377
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FAF2AC7F-D1D5-0624-C716-B3965E629D03}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9F40BDE2-0720-371A-52CF-F49DEF60EFB4}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 16.92225779272658
+      SNAPOFFS 0
+      LENGTH 10.05562028532597
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9A45B0DA-11CA-231C-ECF8-D1E9A0013DFC}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 8.15910662072787
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AADE428D-49C6-0B4E-3011-F39C4633949F}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+    <ITEM
+      POSITION 26.97787807805255
+      SNAPOFFS 0
+      LENGTH 20.11286327302623
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {693561B2-3CCD-197C-A2BF-27B6317FFCA3}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 18.21472690605384
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {926E44DD-98B7-7A05-DA07-AC1E37DF3411}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+    <ITEM
+      POSITION 47.09074135106314
+      SNAPOFFS 0
+      LENGTH 11.77151052124405
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {246B776A-FC9E-D280-4584-53C9A7C4FD04}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 38.32759017908008
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DBCF81AE-61F9-A47F-DB18-70B286C5B5F4}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+    <ITEM
+      POSITION 58.86225187230718
+      SNAPOFFS 0
+      LENGTH 14.72367963009114
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B9A8CFF7-76E9-D585-E5BD-580A54955960}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 50.0991007003854
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AE8726F9-455F-45A6-43C9-A7FC9E928519}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+    <ITEM
+      POSITION 73.58593150244818
+      SNAPOFFS 0
+      LENGTH 18.15204263151711
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {FD191B57-F48B-7299-2FEC-CBE163518978}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 64.82278033047653
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {27ADDE15-A269-415C-1AC6-E7B35AC9ADD9}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+    <ITEM
+      POSITION 91.73797413396528
+      SNAPOFFS 0
+      LENGTH 15.702965137588
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D6F979C4-B203-A29A-B263-FED19EF7AF02}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 130.571462699346
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9D259287-1F1B-ECC1-9007-AB15E4B441C5}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+    <ITEM
+      POSITION 150
+      SNAPOFFS 0
+      LENGTH 30.91433409015357
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {35F3602B-0CCC-41B6-FEB2-EC537E6C8C01}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 173.75418048416142
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {15B8907A-F9E6-AB28-3F09-9B81448A2101}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+  >
+  <TRACK {0A199987-8151-F3E0-3B7F-A161A40367E4}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {0A199987-8151-F3E0-3B7F-A161A40367E4}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 17.14607174078377
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0B2F12C8-E24E-E720-0636-E4D914E2CA6C}
+      IID 1
+      NAME "03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {33C0BDAC-220A-9763-C5C5-CFE9FCACE38A}
+      <SOURCE MP3
+        FILE "/home/calum/Music/ABBA - The Singles (The First Fifty Years) (2024) {00602465865202} [CD MP3 V0]/CD2/03 - Gimme! Gimme! Gimme! (A Man After Midnight).mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 16.92225779272658
+      SNAPOFFS 0
+      LENGTH 10.05562028532597
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F2730ABB-7DF2-5DC9-FF36-94AFF0AFAF34}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 8.15910662072787
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {06A93A0A-4AC3-98F9-DA6F-EE46DABC3170}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+    <ITEM
+      POSITION 26.97787807805255
+      SNAPOFFS 0
+      LENGTH 20.11286327302623
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9CFE7E90-C5C6-E0E1-5305-7956302FA340}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 18.21472690605384
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BD76E2DB-113B-327A-B8B1-B3BAF6A9880B}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+    <ITEM
+      POSITION 47.09074135106314
+      SNAPOFFS 0
+      LENGTH 11.77151052124405
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F4D00860-94C6-2ECA-60B7-433667635345}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 38.32759017908008
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {60FD4E03-FFC6-08B1-E54E-408CEE14CF12}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+    <ITEM
+      POSITION 58.86225187224593
+      SNAPOFFS 0
+      LENGTH 14.7236796301524
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9D73B08D-F86A-FB2C-DE12-86305799E084}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 50.09910070032414
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CC80FD04-83A0-529E-5A9B-3A79D53CF4CD}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+    <ITEM
+      POSITION 73.58593150239832
+      SNAPOFFS 0
+      LENGTH 15.702965137588
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {90F2C94F-98DE-6E20-1AE1-53907B2F6D6D}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 130.571462699346
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {32F370EE-814E-53FF-B77C-29B38DFC9958}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+    <ITEM
+      POSITION 89.28889663998632
+      SNAPOFFS 0
+      LENGTH 18.15204263151711
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {572D2CEF-73E6-B156-ED10-474C3329AF77}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 64.82278033047653
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {916E3769-1CF4-B2AE-6EC6-659AAF6C7D0D}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+    <ITEM
+      POSITION 120
+      SNAPOFFS 0
+      LENGTH 15.70055919447861
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DDB4502C-7FD9-BB6D-A82F-583C010502F9}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 114.87090350486739
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5A97F16C-8B0F-A24A-508F-90A046DB6C3D}
+      <SOURCE FLAC
+        FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      >
+    >
+    <ITEM
+      POSITION 150
+      SNAPOFFS 0
+      LENGTH 15.70055919447861
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B9A21149-CCF8-66A2-C6B2-982538DC800B}
+      IID 1
+      NAME "05 - Gimme! Gimme! Gimme! - Erasure.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 114.87090350486739
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {45F050BB-46AE-86D2-E00F-1900E11E37E3}
       <SOURCE FLAC
         FILE "05 - Gimme! Gimme! Gimme! - Erasure.flac"
       >
