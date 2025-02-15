@@ -1,0 +1,16 @@
+-rwx------ 1 calum calum 16847020 Mar 20  2024 Epic Bully Main.flac
+-rwx------ 1 calum calum 20382480 Mar 28  2024 Horror Vol5 Longing Main.flac
+-rw-r--r-- 1 calum calum   803454 Apr  8  2021 SL_BPM100_C_Bad_Omen.flac
+-rw-r--r-- 1 calum calum   394665 Apr  8  2021 SL_BPM100_C_Sacrificial_Bonfire.flac
+-rw-r--r-- 1 calum calum   609839 Apr  8  2021 SL_BPM100_C_Shark_Attack.flac
+-rw-r--r-- 1 calum calum   525196 Apr  8  2021 SL_BPM100_D_Night_Watch.flac
+-rw-r--r-- 1 calum calum   967019 Apr  8  2021 SL_BPM70_C_Alchemy.flac
+-rw-r--r-- 1 calum calum  1116704 Apr  8  2021 SL_BPM70_D_Death_Toll.flac
+-rw-r--r-- 1 calum calum   657890 Apr  8  2021 SL_BPM70_E_Forbidden_Planet.flac
+-rw-r--r-- 1 calum calum   438593 Apr  8  2021 SL_BPM70_G_Bottom_Feeder.flac
+-rw-r--r-- 1 calum calum   307222 Apr  8  2021 SL_BPM80_A_Doomsday.flac
+-rw-r--r-- 1 calum calum   476522 Apr  8  2021 SL_BPM80_A_Storm_Front.flac
+-rw-r--r-- 1 calum calum  1018121 Apr  8  2021 SL_BPM80_C_Executioner.flac
+-rw-r--r-- 1 calum calum   362512 Apr  8  2021 SL_BPM80_C_Sleeping_Giant.flac
+-rw-r--r-- 1 calum calum   730955 Apr  8  2021 SL_BPM90_B_Solitude.flac
+-rw-r--r-- 1 calum calum   377696 Apr  8  2021 SL_BPM90_F_Black_Cape.flac
