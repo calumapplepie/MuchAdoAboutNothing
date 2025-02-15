@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.33/linux-x86_64" 1739656635
+<REAPER_PROJECT 0.1 "7.33/linux-x86_64" 1739656858
   <NOTES 0 2
   >
   RIPPLE 0
@@ -18,9 +18,9 @@
   VIDEO_CONFIG 0 0 65792
   PANMODE 3
   PANLAWFLAGS 3
-  CURSOR 3.9708163265306
+  CURSOR 47
   ZOOM 9.13579078940042 0 0
-  VZOOMEX 6 148
+  VZOOMEX 6 137
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -90,7 +90,7 @@
   >
   <TEMPOENVEX
     EGUID {7D47CBD0-2CDC-32EF-1AAB-DBF07F4FC5AF}
-    ACT 1 -1
+    ACT 0 -1
     VIS 1 0 1
     LANEHEIGHT 0 0
     ARM 0
@@ -168,7 +168,7 @@
       CHANMODE 0
       GUID {ACB79262-42F2-5D83-ACD5-5A3C4ED9823B}
       <SOURCE FLAC
-        FILE "/home/calum/Documents/Sound/tMP/ironscores/Soundtrack Loops Iron Scores/Loops/Kit 02 118 BPM F/SL_IS_Kit02_Bass1_118_F.flac"
+        FILE "Kit 02 118 BPM F/SL_IS_Kit02_Bass1_118_F.flac"
       >
     >
   >
@@ -216,7 +216,7 @@
       CHANMODE 0
       GUID {70810FC7-90D4-1370-BC81-D947972BBBA0}
       <SOURCE FLAC
-        FILE "/home/calum/Documents/Sound/tMP/ironscores/Soundtrack Loops Iron Scores/Loops/Kit 02 118 BPM F/SL_IS_Kit02_Horns_118_F.flac"
+        FILE "Kit 02 118 BPM F/SL_IS_Kit02_Horns_118_F.flac"
       >
     >
   >
@@ -264,7 +264,7 @@
       CHANMODE 0
       GUID {D66DAC0D-B006-A3DF-110F-68CA918B30B5}
       <SOURCE FLAC
-        FILE "/home/calum/Documents/Sound/tMP/ironscores/Soundtrack Loops Iron Scores/Loops/Kit 02 118 BPM F/SL_IS_Kit02_Timpani3_118_F.flac"
+        FILE "Kit 02 118 BPM F/SL_IS_Kit02_Timpani3_118_F.flac"
       >
     >
   >
@@ -282,7 +282,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FIXEDLANES 9 0 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 1 0 0 0 0 0
@@ -312,7 +312,7 @@
       CHANMODE 0
       GUID {C3FFB2EF-1F20-4DB6-172A-455413294331}
       <SOURCE FLAC
-        FILE "/home/calum/Documents/Sound/tMP/ironscores/Soundtrack Loops Iron Scores/Loops/Kit 02 118 BPM F/SL_IS_Kit02_Snare1_118_F.flac"
+        FILE "Kit 02 118 BPM F/SL_IS_Kit02_Snare1_118_F.flac"
       >
     >
   >
@@ -360,7 +360,7 @@
       CHANMODE 0
       GUID {7F4F3542-E579-35DF-A8BE-52B69BA14356}
       <SOURCE FLAC
-        FILE "/home/calum/Documents/Sound/tMP/ironscores/Soundtrack Loops Iron Scores/Loops/Kit 02 118 BPM F/SL_IS_Kit02_Viola4_118_F.flac"
+        FILE "Kit 02 118 BPM F/SL_IS_Kit02_Viola4_118_F.flac"
       >
     >
   >
@@ -378,7 +378,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FIXEDLANES 9 0 0 0 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -434,7 +434,7 @@
       CHANMODE 0
       GUID {ADA27B5A-9F49-674D-67A2-2AFEC0B66EC2}
       <SOURCE FLAC
-        FILE "/home/calum/Documents/Sound/tMP/ironscores/Soundtrack Loops Iron Scores/Loops/Kit 05 140 BPM F#/SL_IS_Kit05_Trumpet7_140_F#.flac"
+        FILE "Kit 05 140 BPM F#/SL_IS_Kit05_Trumpet7_140_F#.flac"
       >
     >
   >
@@ -482,7 +482,7 @@
       CHANMODE 0
       GUID {C2F3ECC3-7F91-5034-8CA1-6AD101514A82}
       <SOURCE FLAC
-        FILE "/home/calum/Documents/Sound/tMP/ironscores/Soundtrack Loops Iron Scores/Loops/Kit 05 140 BPM F#/SL_IS_Kit05_Tuba3_140_F#.flac"
+        FILE "Kit 05 140 BPM F#/SL_IS_Kit05_Tuba3_140_F#.flac"
       >
     >
   >
@@ -525,7 +525,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {5FDC7FCA-81F9-CB7F-6633-5221750DD42D}
       IID 5
       NAME SL_IS_Kit05_Cello4_140_F#.flac
@@ -535,7 +535,7 @@
       CHANMODE 0
       GUID {D0F8E9D5-E50C-9335-B16B-D120B1BD602E}
       <SOURCE FLAC
-        FILE "/home/calum/Documents/Sound/tMP/ironscores/Soundtrack Loops Iron Scores/Loops/Kit 05 140 BPM F#/SL_IS_Kit05_Cello4_140_F#.flac"
+        FILE "Kit 05 140 BPM F#/SL_IS_Kit05_Cello4_140_F#.flac"
       >
     >
   >
