@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.33/linux-x86_64" 1740360732
+<REAPER_PROJECT 0.1 "7.33/linux-x86_64" 1740375025
   <NOTES 0 2
   >
   RIPPLE 0
@@ -18,9 +18,9 @@
   VIDEO_CONFIG 0 0 65792
   PANMODE 3
   PANLAWFLAGS 3
-  CURSOR 52
-  ZOOM 3.27605841196314 0 0
-  VZOOMEX 6 303
+  CURSOR 6.03821656050956
+  ZOOM 6.27682753243194 0 0
+  VZOOMEX 0 0
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -33,8 +33,8 @@
   <APPLYFX_CFG
   >
   RENDER_FILE ""
-  RENDER_PATTERN ""
-  RENDER_FMT 0 2 0
+  RENDER_PATTERN Heartbeat_BadDraft1
+  RENDER_FMT 0 2 44100
   RENDER_1X 0
   RENDER_RANGE 1 0 0 0 1000
   RENDER_RESAMPLE 3 0 1
@@ -48,7 +48,7 @@
   TAKELANE 1
   SAMPLERATE 44100 0 0
   <RENDER_CFG
-    ZXZhdxgAAQ==
+    bDNwbSAAAAAAAAAAAAAAAAAAAAAAAAAAQAEAAAAAAAA=
   >
   LOCK 1
   <METRONOME 6 2
@@ -66,20 +66,20 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4 0
   PLAYRATE 1 0 0.25 4
-  SELECTION 124 40
-  SELECTION2 124 40
+  SELECTION 0 0
+  SELECTION2 0 0
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
   MASTERMUTESOLO 0
-  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0 0
+  MASTERTRACKVIEW 1 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0 0
   MASTERHWOUT 0 0 1 0 0 0 0 -1
   MASTER_NCH 2 2
   MASTER_VOLUME 1 0 -1 -1 1
   MASTER_PANMODE 3
   MASTER_PANLAWFLAGS 3
   MASTER_FX 1
-  MASTER_SEL 0
+  MASTER_SEL 1
   <MASTERPLAYSPEEDENV
     EGUID {1051925F-74AB-68AE-DF00-C770A91D394B}
     ACT 0 -1
@@ -95,6 +95,11 @@
     LANEHEIGHT 0 0
     ARM 0
     DEFSHAPE 1 -1 -1
+    PT 0.000000000000 79.4936708861 0
+    PT 18.114649681529 79.4936708861 0
+    PT 75.103199299849 185.8227848101 0
+    PT 101.834594648686 249.6202531646 0 0 1
+    PT 125.625225623830 280.0000000000 0
   >
   <PROJBAY
   >
@@ -167,7 +172,7 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 11.684375
+      LENGTH 17.63819665605095
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -222,6 +227,7 @@
         GUID {40D4313B-9C7D-D028-23C8-5D9C69010A64}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 5
+        VELLANE -1 71 0 0 1
       >
     >
   >
@@ -290,7 +296,7 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 9.98072916666667
+      LENGTH 15.06645103503185
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -344,6 +350,7 @@
         GUID {2DCFAB00-5DC4-A6AC-F173-AF885BF53451}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 15
+        VELLANE -1 71 0 0 1
       >
     >
   >
@@ -412,7 +419,7 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 9.98072916666666
+      LENGTH 15.06645103503183
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -535,7 +542,7 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 9.98072916666666
+      LENGTH 15.06645103503183
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -607,7 +614,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FIXEDLANES 9 0 0 0 0
-    SEL 1
+    SEL 0
     REC 0 5088 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -658,7 +665,7 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 9.98072916666666
+      LENGTH 15.06645103503183
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -723,7 +730,7 @@
     AUTOMODE 0
     PANLAWFLAGS 3
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 0 2 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -731,7 +738,7 @@
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FIXEDLANES 9 0 0 0 0
     SEL 0
-    REC 0 5088 1 0 0 0 0 0
+    REC 1 5088 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -759,7 +766,7 @@
         /////wEAAAAAAAAABgAAAAkAAAAMAAAAAQAAAP8/AAAAIAAAACAAAAAAAAAqAAAAL2hvbWUvY2FsdW0vLmNvbmZpZy9SRUFQRVIvRGF0YS9HTS5yZWFiYW5rAAAAAAAA
         AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAATWFqb3IADQAAADEwMjAzNDA1MDYwNwABAAAAAAEAAAAA
         AAAACgAAAA0AAAABAAAAAAAAAAAAAAAAAAAA
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {2FCC179D-F426-6705-2B17-471DEE58C5EE}
@@ -781,61 +788,1464 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 9.98072916666666
+      LENGTH 18.67702099352976
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       SEL 0
-      IGUID {80983C92-5588-D18D-A60A-A4E7632C5A42}
-      IID 6
-      NAME 02-Bass2-MIDI
+      IGUID {F7A14006-A16E-ED52-2094-64B7F43E73B0}
+      IID 15
+      NAME 06-Bass5-MIDI
       VOLPAN 1 0 1 -1
-      SOFFS 0 0
+      SOFFS 0.56608280254777 0.75
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {24CBA78C-61EF-8961-404E-3316B628CDDD}
-      RECPASS 4
+      GUID {56BFE757-99F6-F727-C190-0F41919684E9}
+      RECPASS 6
       <SOURCE MIDI
         HASDATA 1 960 QN
         CCINTERP 32
-        POOLEDEVTS {A1F5B04C-4B68-8378-37CD-B66EDCA44D6A}
-        E 1330 90 23 7a
+        POOLEDEVTS {4C4BA09B-9BD1-F7DC-6274-AE8990F0673E}
+        E 737 90 23 7f
+        E 223 80 23 00
+        E 483 90 23 7f
+        E 357 80 23 00
+        E 1560 90 23 7f
+        E 289 80 23 00
+        E 431 90 23 7f
         E 290 80 23 00
-        E 66 90 23 7a
-        E 246 80 23 00
-        E 1872 90 23 7a
+        E 1630 90 23 7f
         E 312 80 23 00
-        E 67 90 23 7a
-        E 357 80 23 00
-        E 2028 90 23 7a
+        E 408 90 23 7f
         E 290 80 23 00
-        E 379 90 23 7a
-        E 156 80 23 00
-        E 1694 90 23 7a
+        E 1630 90 23 7f
         E 268 80 23 00
-        E 133 90 23 7a
-        E 268 80 23 00
-        E 1560 90 23 7a
-        E 357 80 23 00
-        E 290 90 23 7a
-        E 267 80 23 00
-        E 1494 90 23 7a
-        E 200 80 23 00
-        E 223 90 23 7a
-        E 178 80 23 00
-        E 1739 90 23 7a
+        E 452 90 23 7f
+        E 240 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 440 90 23 7f
         E 245 80 23 00
-        E 223 90 23 7a
+        E 1717 90 23 7f
+        E 267 80 23 00
+        E 424 90 23 7f
+        E 267 80 23 00
+        E 1680 90 23 7f
+        E 223 80 23 00
+        E 497 90 23 7f
+        E 312 80 23 00
+        E 1608 90 23 7f
+        E 324 80 23 00
+        E 396 90 23 7f
         E 268 80 23 00
-        E 2363 b0 7b 00
+        E 1647 90 23 7f
+        E 245 80 23 00
+        E 475 90 23 7f
+        E 245 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 474 90 23 7f
+        E 246 80 23 00
+        E 586 b0 7b 00
         CCINTERP 32
         CHASE_CC_TAKEOFFS 1
-        GUID {2DCFAB00-5DC4-A6AC-F173-AF885BF53451}
+        GUID {C6F64AC0-1FE3-18CB-39A3-5057ABC2FE32}
         IGNTEMPO 0 120 4 4
-        SRCCOLOR 15
-        VELLANE -1 100 0 0 1
+        SRCCOLOR 28
+        VELLANE -1 71 0 0 1
+        CFGEDITVIEW 24156.756463 0.043307 86 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 40 1054 448 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 18.67702099352976
+      SNAPOFFS 0
+      LENGTH 15.61367673375768
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {64666C0C-1188-A96D-7DF6-691A62A95157}
+      IID 15
+      NAME 06-Bass5-MIDI
+      VOLPAN 1 0 1 -1
+      SOFFS 0.56237131200109 0.75
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7096C79D-D207-3AE0-1262-F49AFCC3AA3B}
+      RECPASS 6
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {B4EA14D2-FE1E-F85C-1397-0A2F59E9F5BB}
+        E 737 90 23 7f
+        E 223 80 23 00
+        E 483 90 23 7f
+        E 357 80 23 00
+        E 1560 90 23 7f
+        E 289 80 23 00
+        E 431 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 312 80 23 00
+        E 408 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 268 80 23 00
+        E 452 90 23 7f
+        E 240 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 440 90 23 7f
+        E 245 80 23 00
+        E 1717 90 23 7f
+        E 267 80 23 00
+        E 424 90 23 7f
+        E 267 80 23 00
+        E 1680 90 23 7f
+        E 223 80 23 00
+        E 497 90 23 7f
+        E 312 80 23 00
+        E 1608 90 23 7f
+        E 324 80 23 00
+        E 396 90 23 7f
+        E 268 80 23 00
+        E 1647 90 23 7f
+        E 245 80 23 00
+        E 475 90 23 7f
+        E 245 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 474 90 23 7f
+        E 246 80 23 00
+        E 586 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {C6F64AC0-1FE3-18CB-39A3-5057ABC2FE32}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 28
+        VELLANE -1 71 0 0 1
+        CFGEDITVIEW 19460.431532 0.043307 86 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 40 1054 448 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 34.29069772728744
+      SNAPOFFS 0
+      LENGTH 12.26123608873338
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C489D1A2-D573-CEF6-7848-ACF9BCA14657}
+      IID 15
+      NAME 06-Bass5-MIDI
+      VOLPAN 1 0 1 -1
+      SOFFS 0.4117455837212 0.75
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BAB4D40E-46B1-78CA-0CB8-CDD2E7B9F50A}
+      RECPASS 6
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {37C84C16-87CA-3340-361E-1423060E3FCF}
+        E 737 90 23 7f
+        E 223 80 23 00
+        E 483 90 23 7f
+        E 357 80 23 00
+        E 1560 90 23 7f
+        E 289 80 23 00
+        E 431 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 312 80 23 00
+        E 408 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 268 80 23 00
+        E 452 90 23 7f
+        E 240 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 440 90 23 7f
+        E 245 80 23 00
+        E 1717 90 23 7f
+        E 267 80 23 00
+        E 424 90 23 7f
+        E 267 80 23 00
+        E 1680 90 23 7f
+        E 223 80 23 00
+        E 497 90 23 7f
+        E 312 80 23 00
+        E 1608 90 23 7f
+        E 324 80 23 00
+        E 396 90 23 7f
+        E 268 80 23 00
+        E 1647 90 23 7f
+        E 245 80 23 00
+        E 475 90 23 7f
+        E 245 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 474 90 23 7f
+        E 246 80 23 00
+        E 586 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {C6F64AC0-1FE3-18CB-39A3-5057ABC2FE32}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 28
+        VELLANE -1 71 0 0 1
+        CFGEDITVIEW 19460.431532 0.043307 86 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 40 1054 448 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 46.55193381602082
+      SNAPOFFS 0
+      LENGTH 10.43656776708742
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EC8B2E1E-E529-1040-7A9A-190818A07F61}
+      IID 15
+      NAME 06-Bass5-MIDI
+      VOLPAN 1 0 1 -1
+      SOFFS 0.34030472813863 0.75
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A2EA4D27-B235-D179-384F-4C4C72D99F0A}
+      RECPASS 6
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {BA354116-7259-8B28-FCF0-7D9ABE67C5D0}
+        E 737 90 23 7f
+        E 223 80 23 00
+        E 483 90 23 7f
+        E 357 80 23 00
+        E 1560 90 23 7f
+        E 289 80 23 00
+        E 431 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 312 80 23 00
+        E 408 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 268 80 23 00
+        E 452 90 23 7f
+        E 240 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 440 90 23 7f
+        E 245 80 23 00
+        E 1717 90 23 7f
+        E 267 80 23 00
+        E 424 90 23 7f
+        E 267 80 23 00
+        E 1680 90 23 7f
+        E 223 80 23 00
+        E 497 90 23 7f
+        E 312 80 23 00
+        E 1608 90 23 7f
+        E 324 80 23 00
+        E 396 90 23 7f
+        E 268 80 23 00
+        E 1647 90 23 7f
+        E 245 80 23 00
+        E 475 90 23 7f
+        E 245 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 474 90 23 7f
+        E 246 80 23 00
+        E 586 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {C6F64AC0-1FE3-18CB-39A3-5057ABC2FE32}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 28
+        VELLANE -1 71 0 0 1
+        CFGEDITVIEW 19460.431532 0.043307 86 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 40 1054 448 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 56.98850158310824
+      SNAPOFFS 0
+      LENGTH 9.24381455670176
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C6EF977C-63C8-2575-D674-D8D9F1178D2F}
+      IID 15
+      NAME 06-Bass5-MIDI
+      VOLPAN 1 0 1 -1
+      SOFFS 0.29654471176554 0.75
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5767C686-DC6C-B5B9-AF82-16E2EF42A112}
+      RECPASS 6
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {CAA60E34-6692-57BA-7628-9122824A16D3}
+        E 737 90 23 7f
+        E 223 80 23 00
+        E 483 90 23 7f
+        E 357 80 23 00
+        E 1560 90 23 7f
+        E 289 80 23 00
+        E 431 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 312 80 23 00
+        E 408 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 268 80 23 00
+        E 452 90 23 7f
+        E 240 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 440 90 23 7f
+        E 245 80 23 00
+        E 1717 90 23 7f
+        E 267 80 23 00
+        E 424 90 23 7f
+        E 267 80 23 00
+        E 1680 90 23 7f
+        E 223 80 23 00
+        E 497 90 23 7f
+        E 312 80 23 00
+        E 1608 90 23 7f
+        E 324 80 23 00
+        E 396 90 23 7f
+        E 268 80 23 00
+        E 1647 90 23 7f
+        E 245 80 23 00
+        E 475 90 23 7f
+        E 245 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 474 90 23 7f
+        E 246 80 23 00
+        E 586 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {C6F64AC0-1FE3-18CB-39A3-5057ABC2FE32}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 28
+        VELLANE -1 71 0 0 1
+        CFGEDITVIEW 19460.431532 0.043307 86 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 40 1054 448 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 66.23231613981
+      SNAPOFFS 0
+      LENGTH 8.38536730527261
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {74AFAD3C-7DBE-A2AA-ACBE-C4005B07EA32}
+      IID 15
+      NAME 06-Bass5-MIDI
+      VOLPAN 1 0 1 -1
+      SOFFS 0.26623573717252 0.75000000000033
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {53E93CD9-6C57-C7B9-5576-B0DD45D21E1A}
+      RECPASS 6
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {E1DCEF6F-380E-300A-21B0-DE284E9FC1C0}
+        E 737 90 23 7f
+        E 223 80 23 00
+        E 483 90 23 7f
+        E 357 80 23 00
+        E 1560 90 23 7f
+        E 289 80 23 00
+        E 431 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 312 80 23 00
+        E 408 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 268 80 23 00
+        E 452 90 23 7f
+        E 240 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 440 90 23 7f
+        E 245 80 23 00
+        E 1717 90 23 7f
+        E 267 80 23 00
+        E 424 90 23 7f
+        E 267 80 23 00
+        E 1680 90 23 7f
+        E 223 80 23 00
+        E 497 90 23 7f
+        E 312 80 23 00
+        E 1608 90 23 7f
+        E 324 80 23 00
+        E 396 90 23 7f
+        E 268 80 23 00
+        E 1647 90 23 7f
+        E 245 80 23 00
+        E 475 90 23 7f
+        E 245 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 474 90 23 7f
+        E 246 80 23 00
+        E 586 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {C6F64AC0-1FE3-18CB-39A3-5057ABC2FE32}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 28
+        VELLANE -1 71 0 0 1
+        CFGEDITVIEW 19460.431532 0.043307 86 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 40 1054 448 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 74.61768344508261
+      SNAPOFFS 0
+      LENGTH 7.66194173835683
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8B278F8D-3465-0452-7701-B2391ECAF9A4}
+      IID 15
+      NAME 06-Bass5-MIDI
+      VOLPAN 1 0 1 -1
+      SOFFS 0.24365204179853 0.75000000000028
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9FAB18B8-1A88-3F33-17D4-23809C3DB5A6}
+      RECPASS 6
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {B42D6424-CD47-7820-CDF6-30E77C594171}
+        E 737 90 23 7f
+        E 223 80 23 00
+        E 483 90 23 7f
+        E 357 80 23 00
+        E 1560 90 23 7f
+        E 289 80 23 00
+        E 431 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 312 80 23 00
+        E 408 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 268 80 23 00
+        E 452 90 23 7f
+        E 240 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 440 90 23 7f
+        E 245 80 23 00
+        E 1717 90 23 7f
+        E 267 80 23 00
+        E 424 90 23 7f
+        E 267 80 23 00
+        E 1680 90 23 7f
+        E 223 80 23 00
+        E 497 90 23 7f
+        E 312 80 23 00
+        E 1608 90 23 7f
+        E 324 80 23 00
+        E 396 90 23 7f
+        E 268 80 23 00
+        E 1647 90 23 7f
+        E 245 80 23 00
+        E 475 90 23 7f
+        E 245 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 474 90 23 7f
+        E 246 80 23 00
+        E 586 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {C6F64AC0-1FE3-18CB-39A3-5057ABC2FE32}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 28
+        VELLANE -1 71 0 0 1
+        CFGEDITVIEW 19460.431532 0.043307 86 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 40 1054 448 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 82.27962518343944
+      SNAPOFFS 0
+      LENGTH 7.02675201192415
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BE2C709C-1B5A-4D39-9549-B7F509EEE4B4}
+      IID 15
+      NAME 06-Bass5-MIDI
+      VOLPAN 1 0 1 -1
+      SOFFS 0.22201917940717 0.74999999999943
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6D66D7B8-1C3F-8390-DD05-930EFB9D77AC}
+      RECPASS 6
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {20DAD03E-6F27-66B9-CD31-C05C01E39C89}
+        E 737 90 23 7f
+        E 223 80 23 00
+        E 483 90 23 7f
+        E 357 80 23 00
+        E 1560 90 23 7f
+        E 289 80 23 00
+        E 431 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 312 80 23 00
+        E 408 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 268 80 23 00
+        E 452 90 23 7f
+        E 240 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 440 90 23 7f
+        E 245 80 23 00
+        E 1717 90 23 7f
+        E 267 80 23 00
+        E 424 90 23 7f
+        E 267 80 23 00
+        E 1680 90 23 7f
+        E 223 80 23 00
+        E 497 90 23 7f
+        E 312 80 23 00
+        E 1608 90 23 7f
+        E 324 80 23 00
+        E 396 90 23 7f
+        E 268 80 23 00
+        E 1647 90 23 7f
+        E 245 80 23 00
+        E 475 90 23 7f
+        E 245 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 474 90 23 7f
+        E 246 80 23 00
+        E 586 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {C6F64AC0-1FE3-18CB-39A3-5057ABC2FE32}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 28
+        VELLANE -1 71 0 0 1
+        CFGEDITVIEW 19460.431532 0.043307 86 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 40 1054 448 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 89.30637719536358
+      SNAPOFFS 0
+      LENGTH 6.52720811518719
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2DB50093-7A9F-8F5D-06F9-67FE535910C9}
+      IID 15
+      NAME 06-Bass5-MIDI
+      VOLPAN 1 0 1 -1
+      SOFFS 0.205034190082 0.75000000000011
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A9E6DA8C-6F3E-2AFB-4C96-78C485856396}
+      RECPASS 6
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {7BF084EE-E5A8-F190-4073-5D39E4126EE9}
+        E 737 90 23 7f
+        E 223 80 23 00
+        E 483 90 23 7f
+        E 357 80 23 00
+        E 1560 90 23 7f
+        E 289 80 23 00
+        E 431 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 312 80 23 00
+        E 408 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 268 80 23 00
+        E 452 90 23 7f
+        E 240 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 440 90 23 7f
+        E 245 80 23 00
+        E 1717 90 23 7f
+        E 267 80 23 00
+        E 424 90 23 7f
+        E 267 80 23 00
+        E 1680 90 23 7f
+        E 223 80 23 00
+        E 497 90 23 7f
+        E 312 80 23 00
+        E 1608 90 23 7f
+        E 324 80 23 00
+        E 396 90 23 7f
+        E 268 80 23 00
+        E 1647 90 23 7f
+        E 245 80 23 00
+        E 475 90 23 7f
+        E 245 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 474 90 23 7f
+        E 246 80 23 00
+        E 586 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {C6F64AC0-1FE3-18CB-39A3-5057ABC2FE32}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 28
+        VELLANE -1 71 0 0 1
+        CFGEDITVIEW 19460.431532 0.043307 86 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 40 1054 448 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 95.83358531055077
+      SNAPOFFS 0
+      LENGTH 6.12115497198941
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4C664362-9D13-9E03-B10F-91488CDC9C7C}
+      IID 15
+      NAME 06-Bass5-MIDI
+      VOLPAN 1 0 1 -1
+      SOFFS 0.1914325552908 0.74999999999937
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {33D630B7-B56F-C8BB-D104-F2DB7903D426}
+      RECPASS 6
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {3D62D0DA-3D0F-FB0D-6EB0-1B5340DC5DD9}
+        E 737 90 23 7f
+        E 223 80 23 00
+        E 483 90 23 7f
+        E 357 80 23 00
+        E 1560 90 23 7f
+        E 289 80 23 00
+        E 431 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 312 80 23 00
+        E 408 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 268 80 23 00
+        E 452 90 23 7f
+        E 240 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 440 90 23 7f
+        E 245 80 23 00
+        E 1717 90 23 7f
+        E 267 80 23 00
+        E 424 90 23 7f
+        E 267 80 23 00
+        E 1680 90 23 7f
+        E 223 80 23 00
+        E 497 90 23 7f
+        E 312 80 23 00
+        E 1608 90 23 7f
+        E 324 80 23 00
+        E 396 90 23 7f
+        E 268 80 23 00
+        E 1647 90 23 7f
+        E 245 80 23 00
+        E 475 90 23 7f
+        E 245 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 474 90 23 7f
+        E 246 80 23 00
+        E 586 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {C6F64AC0-1FE3-18CB-39A3-5057ABC2FE32}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 28
+        VELLANE -1 71 0 0 1
+        CFGEDITVIEW 19460.431532 0.043307 86 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 40 1054 448 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 101.95474028254019
+      SNAPOFFS 0
+      LENGTH 5.85767185838856
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C5BA5F87-1F31-85BD-1BBA-5B9B20D4D5B9}
+      IID 15
+      NAME 06-Bass5-MIDI
+      VOLPAN 1 0 1 -1
+      SOFFS 0.18025418381863 0.7499999999992
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5B5A8340-545E-3C33-CF54-424B390A60FB}
+      RECPASS 6
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {896839D4-9482-43E2-B90B-A6066EAED844}
+        E 737 90 23 7f
+        E 223 80 23 00
+        E 483 90 23 7f
+        E 357 80 23 00
+        E 1560 90 23 7f
+        E 289 80 23 00
+        E 431 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 312 80 23 00
+        E 408 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 268 80 23 00
+        E 452 90 23 7f
+        E 240 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 440 90 23 7f
+        E 245 80 23 00
+        E 1717 90 23 7f
+        E 267 80 23 00
+        E 424 90 23 7f
+        E 267 80 23 00
+        E 1680 90 23 7f
+        E 223 80 23 00
+        E 497 90 23 7f
+        E 312 80 23 00
+        E 1608 90 23 7f
+        E 324 80 23 00
+        E 396 90 23 7f
+        E 268 80 23 00
+        E 1647 90 23 7f
+        E 245 80 23 00
+        E 475 90 23 7f
+        E 245 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 474 90 23 7f
+        E 246 80 23 00
+        E 586 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {C6F64AC0-1FE3-18CB-39A3-5057ABC2FE32}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 28
+        VELLANE -1 71 0 0 1
+        CFGEDITVIEW 19460.431532 0.043307 86 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 40 1054 448 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 107.81241214092874
+      SNAPOFFS 0
+      LENGTH 5.69209774070509
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B712DE4A-56C5-F712-4215-40899BE9F973}
+      IID 15
+      NAME 06-Bass5-MIDI
+      VOLPAN 1 0 1 -1
+      SOFFS 0.1750006050257 0.74999999999943
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EAD21356-ECE0-257D-1D3C-30D9B843775A}
+      RECPASS 6
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {03C830C8-118C-D95F-12B2-5360254CDCF8}
+        E 737 90 23 7f
+        E 223 80 23 00
+        E 483 90 23 7f
+        E 357 80 23 00
+        E 1560 90 23 7f
+        E 289 80 23 00
+        E 431 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 312 80 23 00
+        E 408 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 268 80 23 00
+        E 452 90 23 7f
+        E 240 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 440 90 23 7f
+        E 245 80 23 00
+        E 1717 90 23 7f
+        E 267 80 23 00
+        E 424 90 23 7f
+        E 267 80 23 00
+        E 1680 90 23 7f
+        E 223 80 23 00
+        E 497 90 23 7f
+        E 312 80 23 00
+        E 1608 90 23 7f
+        E 324 80 23 00
+        E 396 90 23 7f
+        E 268 80 23 00
+        E 1647 90 23 7f
+        E 245 80 23 00
+        E 475 90 23 7f
+        E 245 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 474 90 23 7f
+        E 246 80 23 00
+        E 586 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {C6F64AC0-1FE3-18CB-39A3-5057ABC2FE32}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 28
+        VELLANE -1 71 0 0 1
+        CFGEDITVIEW 19460.431532 0.043307 86 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 40 1054 448 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 113.50450988163384
+      SNAPOFFS 0
+      LENGTH 5.5398175639414
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {281AD172-FD54-9CF7-2B46-8A3F169411C9}
+      IID 15
+      NAME 06-Bass5-MIDI
+      VOLPAN 1 0 1 -1
+      SOFFS 0.17018789384517 0.75
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B6ACDEA9-09D5-FE66-75F9-AEA8CB3AD4F5}
+      RECPASS 6
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {52C15EEE-5F33-003B-5AF9-8E3F4ED859CB}
+        E 737 90 23 7f
+        E 223 80 23 00
+        E 483 90 23 7f
+        E 357 80 23 00
+        E 1560 90 23 7f
+        E 289 80 23 00
+        E 431 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 312 80 23 00
+        E 408 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 268 80 23 00
+        E 452 90 23 7f
+        E 240 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 440 90 23 7f
+        E 245 80 23 00
+        E 1717 90 23 7f
+        E 267 80 23 00
+        E 424 90 23 7f
+        E 267 80 23 00
+        E 1680 90 23 7f
+        E 223 80 23 00
+        E 497 90 23 7f
+        E 312 80 23 00
+        E 1608 90 23 7f
+        E 324 80 23 00
+        E 396 90 23 7f
+        E 268 80 23 00
+        E 1647 90 23 7f
+        E 245 80 23 00
+        E 475 90 23 7f
+        E 245 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 474 90 23 7f
+        E 246 80 23 00
+        E 586 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {C6F64AC0-1FE3-18CB-39A3-5057ABC2FE32}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 28
+        VELLANE -1 71 0 0 1
+        CFGEDITVIEW 19460.431532 0.043307 86 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 40 1054 448 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 119.04432744557523
+      SNAPOFFS 0
+      LENGTH 5.39914221658812
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {645F4F02-EBBA-000D-DF9C-B1DBE7485D1B}
+      IID 15
+      NAME 06-Bass5-MIDI
+      VOLPAN 1 0 1 -1
+      SOFFS 0.16575158920732 0.75000000000011
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {77349008-AB2F-58E2-1D74-F686837FAB36}
+      RECPASS 6
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {1DEA6F8A-58D4-860F-67BF-7927624791BC}
+        E 737 90 23 7f
+        E 223 80 23 00
+        E 483 90 23 7f
+        E 357 80 23 00
+        E 1560 90 23 7f
+        E 289 80 23 00
+        E 431 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 312 80 23 00
+        E 408 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 268 80 23 00
+        E 452 90 23 7f
+        E 240 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 440 90 23 7f
+        E 245 80 23 00
+        E 1717 90 23 7f
+        E 267 80 23 00
+        E 424 90 23 7f
+        E 267 80 23 00
+        E 1680 90 23 7f
+        E 223 80 23 00
+        E 497 90 23 7f
+        E 312 80 23 00
+        E 1608 90 23 7f
+        E 324 80 23 00
+        E 396 90 23 7f
+        E 268 80 23 00
+        E 1647 90 23 7f
+        E 245 80 23 00
+        E 475 90 23 7f
+        E 245 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 474 90 23 7f
+        E 246 80 23 00
+        E 586 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {C6F64AC0-1FE3-18CB-39A3-5057ABC2FE32}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 28
+        VELLANE -1 71 0 0 1
+        CFGEDITVIEW 19460.431532 0.043307 86 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 40 1054 448 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 124.44346966216335
+      SNAPOFFS 0
+      LENGTH 5.30675596166671
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {88AB1C9B-BB72-AE6D-E599-201593BCDF7B}
+      IID 15
+      NAME 06-Bass5-MIDI
+      VOLPAN 1 0 1 -1
+      SOFFS 0.16164505268 0.75000000000023
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {022D921A-797F-563D-C438-4D7D115B3077}
+      RECPASS 6
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {34821A85-D9DD-F34D-21AA-22E7B4993824}
+        E 737 90 23 7f
+        E 223 80 23 00
+        E 483 90 23 7f
+        E 357 80 23 00
+        E 1560 90 23 7f
+        E 289 80 23 00
+        E 431 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 312 80 23 00
+        E 408 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 268 80 23 00
+        E 452 90 23 7f
+        E 240 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 440 90 23 7f
+        E 245 80 23 00
+        E 1717 90 23 7f
+        E 267 80 23 00
+        E 424 90 23 7f
+        E 267 80 23 00
+        E 1680 90 23 7f
+        E 223 80 23 00
+        E 497 90 23 7f
+        E 312 80 23 00
+        E 1608 90 23 7f
+        E 324 80 23 00
+        E 396 90 23 7f
+        E 268 80 23 00
+        E 1647 90 23 7f
+        E 245 80 23 00
+        E 475 90 23 7f
+        E 245 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 474 90 23 7f
+        E 246 80 23 00
+        E 586 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {C6F64AC0-1FE3-18CB-39A3-5057ABC2FE32}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 28
+        VELLANE -1 71 0 0 1
+        CFGEDITVIEW 19460.431532 0.043307 86 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 40 1054 448 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 129.75022562383006
+      SNAPOFFS 0
+      LENGTH 5.30357142857116
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0D5FE836-4AC2-142A-204B-F9DD36EB763E}
+      IID 15
+      NAME 06-Bass5-MIDI
+      VOLPAN 1 0 1 -1
+      SOFFS 0.1607142857145 0.75000000000102
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {02DD50E3-DC0F-11E0-F020-15D895C8150F}
+      RECPASS 6
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {C1A0CB7D-F552-7303-9486-B65886816349}
+        E 737 90 23 7f
+        E 223 80 23 00
+        E 483 90 23 7f
+        E 357 80 23 00
+        E 1560 90 23 7f
+        E 289 80 23 00
+        E 431 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 312 80 23 00
+        E 408 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 268 80 23 00
+        E 452 90 23 7f
+        E 240 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 440 90 23 7f
+        E 245 80 23 00
+        E 1717 90 23 7f
+        E 267 80 23 00
+        E 424 90 23 7f
+        E 267 80 23 00
+        E 1680 90 23 7f
+        E 223 80 23 00
+        E 497 90 23 7f
+        E 312 80 23 00
+        E 1608 90 23 7f
+        E 324 80 23 00
+        E 396 90 23 7f
+        E 268 80 23 00
+        E 1647 90 23 7f
+        E 245 80 23 00
+        E 475 90 23 7f
+        E 245 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 474 90 23 7f
+        E 246 80 23 00
+        E 586 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {C6F64AC0-1FE3-18CB-39A3-5057ABC2FE32}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 28
+        VELLANE -1 71 0 0 1
+        CFGEDITVIEW 19460.431532 0.043307 86 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 40 1054 448 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 135.05379705240122
+      SNAPOFFS 0
+      LENGTH 5.30357142857167
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {11EA31A3-4531-572C-7104-93D0EAE40FB8}
+      IID 15
+      NAME 06-Bass5-MIDI
+      VOLPAN 1 0 1 -1
+      SOFFS 0.16071428571408 0.74999999999903
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1279631A-80DF-5606-38B3-0BA1865FE9AE}
+      RECPASS 6
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {A98D986A-5F33-298F-A8DC-8270AA5C703C}
+        E 737 90 23 7f
+        E 223 80 23 00
+        E 483 90 23 7f
+        E 357 80 23 00
+        E 1560 90 23 7f
+        E 289 80 23 00
+        E 431 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 312 80 23 00
+        E 408 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 268 80 23 00
+        E 452 90 23 7f
+        E 240 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 440 90 23 7f
+        E 245 80 23 00
+        E 1717 90 23 7f
+        E 267 80 23 00
+        E 424 90 23 7f
+        E 267 80 23 00
+        E 1680 90 23 7f
+        E 223 80 23 00
+        E 497 90 23 7f
+        E 312 80 23 00
+        E 1608 90 23 7f
+        E 324 80 23 00
+        E 396 90 23 7f
+        E 268 80 23 00
+        E 1647 90 23 7f
+        E 245 80 23 00
+        E 475 90 23 7f
+        E 245 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 474 90 23 7f
+        E 246 80 23 00
+        E 586 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {C6F64AC0-1FE3-18CB-39A3-5057ABC2FE32}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 28
+        VELLANE -1 71 0 0 1
+        CFGEDITVIEW 19460.431532 0.043307 86 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 40 1054 448 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 140.35736848097289
+      SNAPOFFS 0
+      LENGTH 5.30357142857133
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {38EACB2B-F4F6-0CEA-6C84-DEC3674C34D4}
+      IID 15
+      NAME 06-Bass5-MIDI
+      VOLPAN 1 0 1 -1
+      SOFFS 0.16071428571442 0.75000000000063
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8722376E-EDA1-6054-6DA8-D1DCEA2A9FF3}
+      RECPASS 6
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {526B8375-4696-DEE1-5889-1F1A35DEB09C}
+        E 737 90 23 7f
+        E 223 80 23 00
+        E 483 90 23 7f
+        E 357 80 23 00
+        E 1560 90 23 7f
+        E 289 80 23 00
+        E 431 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 312 80 23 00
+        E 408 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 268 80 23 00
+        E 452 90 23 7f
+        E 240 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 440 90 23 7f
+        E 245 80 23 00
+        E 1717 90 23 7f
+        E 267 80 23 00
+        E 424 90 23 7f
+        E 267 80 23 00
+        E 1680 90 23 7f
+        E 223 80 23 00
+        E 497 90 23 7f
+        E 312 80 23 00
+        E 1608 90 23 7f
+        E 324 80 23 00
+        E 396 90 23 7f
+        E 268 80 23 00
+        E 1647 90 23 7f
+        E 245 80 23 00
+        E 475 90 23 7f
+        E 245 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 474 90 23 7f
+        E 246 80 23 00
+        E 586 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {C6F64AC0-1FE3-18CB-39A3-5057ABC2FE32}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 28
+        VELLANE -1 71 0 0 1
+        CFGEDITVIEW 19460.431532 0.043307 86 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 40 1054 448 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 145.66093990954423
+      SNAPOFFS 0
+      LENGTH 5.30357142857133
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FFB5A2EB-4F70-8542-D8C1-8F7259869019}
+      IID 15
+      NAME 06-Bass5-MIDI
+      VOLPAN 1 0 1 -1
+      SOFFS 0.16071428571428 0.75
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8EC10768-D852-E244-2667-57B63E819127}
+      RECPASS 6
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {969B63C6-A32F-C7C4-CA08-8A888D306A35}
+        E 737 90 23 7f
+        E 223 80 23 00
+        E 483 90 23 7f
+        E 357 80 23 00
+        E 1560 90 23 7f
+        E 289 80 23 00
+        E 431 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 312 80 23 00
+        E 408 90 23 7f
+        E 290 80 23 00
+        E 1630 90 23 7f
+        E 268 80 23 00
+        E 452 90 23 7f
+        E 240 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 440 90 23 7f
+        E 245 80 23 00
+        E 1717 90 23 7f
+        E 267 80 23 00
+        E 424 90 23 7f
+        E 267 80 23 00
+        E 1680 90 23 7f
+        E 223 80 23 00
+        E 497 90 23 7f
+        E 312 80 23 00
+        E 1608 90 23 7f
+        E 324 80 23 00
+        E 396 90 23 7f
+        E 268 80 23 00
+        E 1647 90 23 7f
+        E 245 80 23 00
+        E 475 90 23 7f
+        E 245 80 23 00
+        E 1697 90 23 7f
+        E 223 80 23 00
+        E 474 90 23 7f
+        E 246 80 23 00
+        E 586 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {C6F64AC0-1FE3-18CB-39A3-5057ABC2FE32}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 28
+        VELLANE -1 71 0 0 1
+        CFGEDITVIEW 19460.431532 0.043307 86 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 40 1054 448 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
       >
     >
   >
@@ -854,7 +2264,7 @@
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FIXEDLANES 9 0 0 0 0
     SEL 0
-    REC 1 5088 1 0 0 0 0 0
+    REC 0 5088 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -904,7 +2314,7 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 14.64583333333333
+      LENGTH 21.93720029572174
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -972,6 +2382,7 @@
         GUID {5943970B-240A-22FE-6CE8-59C9122F098F}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 23
+        VELLANE -1 71 0 0 1
       >
     >
   >
