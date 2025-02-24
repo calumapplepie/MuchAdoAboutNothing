@@ -1,0 +1,755 @@
+<REAPER_PROJECT 0.1 "7.33/linux-x86_64" 1740377665
+  <NOTES 0 2
+  >
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 4232
+  ENVATTACH 3
+  POOLEDENVATTACH 2
+  MIXERUIFLAGS 11 48
+  ENVFADESZ10 40
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 0
+  GRID 3199 8 1 8 1 0 0 0
+  TIMEMODE 1 5 -1 30 0 0 -1
+  VIDEO_CONFIG 0 0 65792
+  PANMODE 3
+  PANLAWFLAGS 3
+  CURSOR 32
+  ZOOM 1.18051248663919 0 0
+  VZOOMEX 6 0
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "Media" ""
+  <RECORD_CFG
+    ZXZhdxgAAQ==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN DohJohn_EvilMusic_LoopedPlaceholder
+  RENDER_FMT 0 2 44100
+  RENDER_1X 0
+  RENDER_RANGE 1 0 0 0 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 1
+  DEFPITCHMODE 589824 0
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+    bDNwbSAAAAAAAAAAAAAAAAAAAAAAAAAAQAEAAAAAAAA=
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    BEATLEN 4
+    FREQ 1760 880 1
+    SAMPLES "" "" "" ""
+    SPLIGNORE 0 0
+    SPLDEF 2 660 "" 0 ""
+    SPLDEF 3 440 "" 0 ""
+    PATTERN 0 169
+    PATTERNSTR ABBB
+    MULT 1
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4 0
+  PLAYRATE 1 0 0.25 4
+  SELECTION 32 224
+  SELECTION2 32 224
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_PANMODE 3
+  MASTER_PANLAWFLAGS 3
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    EGUID {88AFF06A-CC07-7E36-064C-ABA2C907F82D}
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    EGUID {209CC622-D66F-8E23-2848-7A744B9CCC3D}
+    ACT 1 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  <PROJBAY
+  >
+  <TRACK {629A91EE-7273-EB71-C234-BCD53C25E3BF}
+    NAME SL_BPM80_A_Doomsday
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {629A91EE-7273-EB71-C234-BCD53C25E3BF}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <VOLENV2
+      EGUID {D60C4272-BA42-074E-2C14-63807BF18DCD}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 0 1 0
+      PT 8 1 0
+      PT 16 0.03162278 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3505DCF3-FDDF-A414-F7EF-19177632CDF5}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F8FE5827-1263-3528-D7E8-CF4231FA5A47}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+    <ITEM
+      POSITION 6
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {21ADA155-4BD6-57BD-E90D-5FC8C6B6924B}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C3DFFD60-CF07-F2BD-1D82-CB802CF60942}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+    <ITEM
+      POSITION 12
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {AC9E63A9-7490-BA41-7D52-42A19C29588B}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D63E6719-B4E7-C51E-84F5-667ECEAC76C1}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+    <ITEM
+      POSITION 18
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E13948F9-3FFD-425E-E6B8-06F9382986CB}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AA9AD810-391F-4C31-42D6-46FDF23B7AB7}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+    <ITEM
+      POSITION 24
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {13E4D82F-EBEE-3C48-3E7D-57DCDF16D228}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3E3F15C5-9584-43BA-BD83-BDE63E346525}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+    <ITEM
+      POSITION 30
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {93183F4C-420E-478A-22EC-584E1615FED9}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E26FA58B-0945-3121-65AC-DA05559BAA6C}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+    <ITEM
+      POSITION 36
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A4697E1B-6785-ECA9-994B-49ADF5F28429}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AADE3350-9F97-D41C-EA97-91B334E312DD}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+    <ITEM
+      POSITION 42
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3168FFAA-D53B-62F2-A4F7-55A1C22E18D9}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2112B71F-9B98-A1E1-52B7-9CEBDC4D0266}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+    <ITEM
+      POSITION 48
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4D33107E-5641-8337-0B0B-84FE5D5A9D07}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6DAF2E6C-302D-9ED3-47A1-933159D53539}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+    <ITEM
+      POSITION 54
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BED9AB4A-B487-6ACD-63A0-95D1E2203653}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {15FD60B1-C8D3-5960-BE65-A7D5A34C33CE}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+    <ITEM
+      POSITION 60
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {12A61F12-5C8B-EFB2-458B-C283F555E8F7}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BA4CCE88-4734-08C9-2AE8-DC007A2782CE}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+    <ITEM
+      POSITION 66
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {26802331-AA8F-B35F-B101-3364AE3C0499}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CBA7906E-8659-8ACD-4EFB-76109278B197}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+    <ITEM
+      POSITION 72
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F7FAA2F8-B89D-BB28-1D1D-77F846406571}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CDCC6750-6355-0653-5C61-670EABE9E0D6}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+    <ITEM
+      POSITION 78
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2846381E-F20B-10D7-D660-DFF0BCC4C6E3}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {65CEB616-ED78-0A98-B057-855B8AC6B365}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+    <ITEM
+      POSITION 84
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2E4F7565-1F66-8DD1-9DB5-58FE6F964BF8}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BDB70532-2BED-04F6-CFFB-BDB519B41E92}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+    <ITEM
+      POSITION 90
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7C004FE6-C1BA-D6BA-09FB-7D9B436268D2}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7EF833A8-B4FE-8A4F-4BBE-79A12B5C76CB}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+    <ITEM
+      POSITION 96
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BD46F705-8F9B-F7E8-B9DF-0D7646465896}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F5BC05CD-9BA5-6D6A-714C-023BD39FB4EA}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+    <ITEM
+      POSITION 102
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6F6E1DD0-88B4-521A-5850-7EB11B090D1C}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {54883F15-679C-990E-B408-43663E4E3944}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+    <ITEM
+      POSITION 108
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {17D8B50F-C77A-74CE-9DBC-AA8377A86C75}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4ECADC7F-68B4-D96E-0E71-530ACEEBBD45}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+    <ITEM
+      POSITION 114
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C641A119-6117-9234-8F1F-6E8F12DAE479}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7713DF6C-1421-B295-D3ED-C7BB5B76E4DD}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+    <ITEM
+      POSITION 120
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {78B1052C-96B1-7E7E-879E-F6CAED4A0341}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {46AF448B-765B-C49E-0BED-2FEF63D5D5BB}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+    <ITEM
+      POSITION 126
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4ACDCC2F-ACC8-F6C9-C0B6-F9BE8E31A4D9}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B4A870A4-3A57-BDDE-D778-E56CE7624FE0}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+    <ITEM
+      POSITION 132
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A856AFF8-97F3-EFBB-6C8B-375DEFFE24E9}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CB5C1AB7-4469-796F-35DA-200C2E032A9B}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+    <ITEM
+      POSITION 138
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B92E7049-72D2-383C-C88B-F1192ECF5E3E}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7E36D3F5-77D5-96CD-F2A0-A6853AB45216}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+    <ITEM
+      POSITION 144
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1F8AF99C-A897-8414-2738-61CC3291B51A}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1D75A7AE-B90E-E124-28F3-61788C685822}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+    <ITEM
+      POSITION 150
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1A272E45-21A6-6DCB-787A-AE4EFEB9C471}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D6E90291-3D96-84C0-DD23-464FA48F8B97}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+    <ITEM
+      POSITION 156
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5DD72DD6-C4A8-5FD7-04B7-8105AF1675C9}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1A9A667F-297F-30C4-8D7D-183B4DF9B2C4}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+    <ITEM
+      POSITION 162
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0AB42498-0E33-E323-AEAB-7B5CFAD5DF34}
+      IID 1
+      NAME SL_BPM80_A_Doomsday.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {666621ED-5C36-58B4-24EA-F18E2CCF76DF}
+      <SOURCE FLAC
+        FILE "Media/SL_BPM80_A_Doomsday.flac"
+      >
+    >
+  >
+>
