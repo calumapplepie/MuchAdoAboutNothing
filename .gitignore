@@ -7,3 +7,6 @@
 
 # Reaper backups
 *.rpp-bak
+
+# Signal flow output
+*.pdf
